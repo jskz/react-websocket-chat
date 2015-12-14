@@ -1,0 +1,26 @@
+{
+  "name": "react-websocket-chat",
+  "version": "1.0.0",
+  "description": "Example chat webapp using React, Express, and WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jskz/react-websocket-chat.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "websockets",
+    "chat"
+  ],
+  "author": "James Skarzinskas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jskz/react-websocket-chat/issues"
+  },
+  "homepage": "https://github.com/jskz/react-websocket-chat#readme"
+}
