@@ -107,8 +107,6 @@ wss.on('connection', (ws) => {
     }))
 
     ws.on('close', () => {
-        console.log('Lost connection, removing.')
-
         removeSocket(ws)
         broadcast(
             p.MESSAGE_USER_LEAVES,
@@ -193,6 +191,13 @@ wss.on('connection', (ws) => {
                     id: me.id,
                     nickname: decoded.data.nickname
                 })
+
+            broadcast(
+                p.MESSAGE_SERVER_MESSAGE,
+                {
+                    message: `${decoded.data.nickname} has joined the room.`
+                }
+            )
         }
     })
 })

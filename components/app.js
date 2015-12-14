@@ -31,6 +31,7 @@ class App extends React.Component {
 
         if(decoded.type === p.MESSAGE_CHAT) {
             this.state.chatLog.push(decoded.data)
+            this.refs.chat.onNewMessage(decoded.data)
             this.forceUpdate()
             return
         }
@@ -174,7 +175,7 @@ class App extends React.Component {
                     </header>
 
                     <div className="view">
-                        <Chat messages={this.state.chatLog} />
+                        <Chat ref="chat" messages={this.state.chatLog} />
                         <Users users={this.state.userList} />
                     </div>
 

@@ -1,45 +1,47 @@
 body
-    margin: 0 0
+    margin:                         0 0
+    background:                     #e2e2e2
 
 #origin
-    max-width:          1200px
-    margin:             0 auto
-    margin-top:         1em
-    border:             1px solid #eeeeee
-    font-family:        'Helvetica Neue', Helvetica, sans-serif
+    max-width:                      1200px
+    margin:                         0 auto
+    margin-top:                     1em
+    font-family:                    'Helvetica Neue', Helvetica, sans-serif
 
 #app
     header
-        background:     #f1f1f1
-        padding:        0.5em 0.5em
+        background:                 #f1f1f1
+        font-size:                  0.8em
+        font-weight:                bold
+        padding:                    0.5em 0.5em
 
     .view
-        display:        flex
-        flex-wrap:      wrap
+        display:                    flex
+        flex-wrap:                  wrap
 
         #chat
-            flex-direction: column
-            align-items: flex-start
-            flex-grow: 1
+            flex-direction:         column
+            align-items:            flex-start
+            flex-grow:              1
 
             ul
-                margin: 0 0
-                height: 360px
-                max-height: 360px
-                overflow-y: scroll
+                margin:             0 0
+                height:             360px
+                max-height:         360px
+                overflow-y:         scroll
 
         #users
-            flex-direction: column
-            align-items: flex-start
-            min-width:      200px
+            flex-direction:         column
+            align-items:            flex-start
+            min-width:              200px
 
     .input
         form.input
-            display: flex
-            align-self: flex-end
+            display:                flex
+            align-self:             flex-end
 
             button, label
-                font-family: sans-serif
+                font-family:        sans-serif
 
             button
                 align-self:         center
@@ -49,7 +51,8 @@ body
                 text-transform:     uppercase
                 border:             none
                 border-radius:      1px
-                background:         rgb(207, 255, 190)
+                background:         rgb(152, 228, 124)
+                color:              rgb(36, 36, 36)
                 cursor:             pointer
 
             label

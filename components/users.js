@@ -9,7 +9,7 @@ class Users extends React.Component {
     render() {
         let users = this.props.users.map(u =>
             (
-                <li key={u.id}>{u.nickname || 'unnamed'}</li>
+                <li className={u.nickname === null ? 'guest' : 'user'} key={u.id}>{u.nickname || 'unnamed'}</li>
             ))
 
         return (

@@ -1,4 +1,6 @@
 #users
+    background:                 #ffffff
+
     ul
         height:             360px
         max-height:         360px
@@ -12,6 +14,11 @@
         padding:            0.25em 0.25em
         font-family:        sans-serif
         font-size:          1.0em
+
+        &.guest
+            color: rgb(121, 121, 121)
+        &.user
+            font-weight: bold
 
         &:hover
             background-color: rgb(226, 226, 226)

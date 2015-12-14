@@ -4,13 +4,23 @@ import './chat.sass'
 class Chat extends React.Component {
     constructor(props) {
         super(props)
+
+        this.state = {
+            messages: []
+        }
+    }
+
+    clear() {
+        this.state.messages = []
+        this.forceUpdate()
     }
 
     onNewMessage(messagePacket) {
+        this.state.messages.push(messagePacket)
     }
 
     render() {
-        let chat = this.props.messages.map(c =>
+        let chat = this.state.messages.map(c =>
             (
                 <li key={c.id} >
                     <div className="from">
@@ -23,7 +33,7 @@ class Chat extends React.Component {
 
         return (
             <div id="chat">
-                <ul>
+                <ul ref="list">
                     {chat}
                 </ul>
             </div>
