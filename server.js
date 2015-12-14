@@ -15,6 +15,7 @@ const HTML = `
     <head>
         <meta charset="utf-8">
         <title>React WebSocket Chat Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="/bundle.js" type="text/javascript"></script>
     </head>
 
