@@ -1,0 +1,24 @@
+# Autodetect text files
+* text=auto
+
+*.png    binary
+*.jpg    binary
+*.psd    binary
+*.ai     binary
+*.xap    binary
+*.svg    binary
+*.gif    binary
+*.ttf    binary
+*.eot    binary
+*.woff2  binary
+*.otf    binary
+*.woff   binary
+*.zip    binary
+*.gz     binary
+*.tar.gz  binary
+*.tgz   binary
+*.pdf   binary
+*.swf   binary
+*.min.js  binary
+*.min.css binary
+
