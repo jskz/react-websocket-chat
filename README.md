@@ -21,3 +21,7 @@ npm install
 webpack
 npm start
 ```
+
+### Screenshot with three sessions
+
+![Screenshot using three concurrent sessions](screenshot.png)
