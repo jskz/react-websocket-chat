@@ -1,6 +1,8 @@
 static
 node_modules
 .*
+*.log
+*.so
 !.babelrc
 !.gitignore
 !.gitattributes
