@@ -12,7 +12,6 @@ class Chat extends React.Component {
 
     clear() {
         this.state.messages = []
-        this.state.whispers = []
         this.forceUpdate()
     }
 
