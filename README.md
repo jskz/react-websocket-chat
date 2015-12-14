@@ -1,6 +1,6 @@
 # :speech_balloon: react-websocket-chat
 
-An example or starting place for an ES6 chat webapp using [Facebook's React](https://facebook.github.io/react/) and [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API).  
+An example or starting place for an ES6 chat webapp using [Express](http://expressjs.com/en/index.html), [ws](https://github.com/websockets/ws), [Facebook's React](https://facebook.github.io/react/), and [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API).  
 
 ### Prerequisites
 
