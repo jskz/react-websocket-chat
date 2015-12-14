@@ -123,7 +123,7 @@ wss.on('connection', (ws) => {
         let decoded = JSON.parse(m)
 
         if(decoded.type === p.MESSAGE_CHAT) {
-            if(!decoded.data.message.length)
+            if(!decoded.data.message.length || !me.nickname)
                 return;
 
             broadcast(p.MESSAGE_CHAT, {
