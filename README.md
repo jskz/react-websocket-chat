@@ -2,6 +2,11 @@
 
 A straightforward example of an ES6 chat webapp using [Facebook's React](https://facebook.github.io/react/) and [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API).  
 
+### Prerequisites
+
+- Node
+- webpack (`npm install -g webpack`)
+
 ### Setup
 
 ```
@@ -10,8 +15,9 @@ cd test
 npm install
 ```
 
-### Usage
+### Build + Usage
 
 ```
+webpack
 npm start
 ```
