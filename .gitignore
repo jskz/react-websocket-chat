@@ -1,0 +1,6 @@
+static
+node_modules
+.*
+!.babelrc
+!.gitignore
+!.gitattributes

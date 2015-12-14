@@ -1,0 +1,107 @@
+body
+    margin: 0 0
+
+#origin
+    max-width:          1200px
+    margin:             0 auto
+    margin-top:         1em
+    border:             1px solid #eeeeee
+    font-family:        'Helvetica Neue', Helvetica, sans-serif
+
+#app
+    header
+        background:     #f1f1f1
+        padding:        0.5em 0.5em
+
+    .view
+        display:        flex
+        flex-wrap:      wrap
+
+        #chat
+            flex-direction: column
+            align-items: flex-start
+            flex-grow: 1
+
+            ul
+                margin: 0 0
+                height: 360px
+                max-height: 360px
+                overflow-y: scroll
+
+        #users
+            flex-direction: column
+            align-items: flex-start
+            min-width:      200px
+
+    .input
+        form.input
+            display: flex
+            align-self: flex-end
+
+            button, label
+                font-family: sans-serif
+
+            button
+                align-self:         center
+                padding:            0.75rem 1.7rem
+                font-size:          0.9em
+                font-weight:        bold
+                text-transform:     uppercase
+                border:             none
+                border-radius:      1px
+                background:         rgb(207, 255, 190)
+                cursor:             pointer
+
+            label
+                align-self:         center
+                padding:            0.75rem 0.75rem
+                background:         #f1f1f1
+                color:              #222222
+                text-transform:     uppercase
+                font-size:          0.9em
+                font-weight:        normal
+
+            input
+                flex-grow:          1
+                padding:            1em 0.5em
+                background:         #fafafa
+                border:             none
+
+body
+    font-size:              18px
+    *:focus
+        outline:            none
+.modal-segment
+    text-align:             center
+    font-family:            sans-serif
+    padding:                1em 1em
+    box-shadow:             1.4px 1.35px 1.3px rgba(0, 0, 0, 0.7)
+
+    *:focus
+        outline:            none
+
+    button
+        padding:            0.7em 1.5em
+        border:             none
+        border-radius:      2px
+        background-color:   rgb(166, 238, 179)
+        font-weight:        bold
+        text-transform:     uppercase
+        cursor:             pointer
+
+    input[type='text']
+        margin-bottom:      0.75em
+
+    .last-details
+        font-size:          0.6em
+        text-transform:     uppercase
+
+    label
+        padding-right:      0.25em
+        font-size:          0.65em
+        font-weight:        bold
+        text-transform:     uppercase
+
+    h2
+        margin:             0 0 0.7em 0
+        text-transform:     uppercase
