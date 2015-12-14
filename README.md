@@ -4,7 +4,7 @@ An example or starting place for an ES6 chat webapp using [Facebook's React](htt
 
 ### Prerequisites
 
-- Node
+- [Node](https://nodejs.org/en/)
 - webpack (`npm install -g webpack`)
 
 ### Setup
@@ -21,6 +21,8 @@ npm install
 webpack
 npm start
 ```
+
+Visit [http://localhost:8080/](http://localhost:8080/) with your browser.
 
 ### Screenshot with three sessions
 
